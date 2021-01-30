@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bullet Journal. Inspiración e ideas</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/paginaizquierda.css">
+	<link rel="stylesheet" type="text/css" href="css/paginaderecha.css">
+	<link rel="stylesheet" type="text/css" href="css/mediaquerys.css">	
+	<link rel="icon" href="images/favicon.ico" sizes="32x32">
+
+</head>
+
+<body>
+	<nav>
+		<h2>Leyenda</h2>
+		<a href="index.html"><img src="images/select.jpg">
+			<p>Qué es un bullet journal</p>
+		</a>
+		<a href="inspiracion.html"><img src="images/select.jpg">
+			<p>Inspiración e ideas</p>
+		</a>
+		<a href="quiensoy.html"><img src="images/select.jpg">
+			<p>Quién soy</p>
+		</a>
+	</nav>
+	<main id="quiensoy">
+		<section class="paginaizquierda">
+			<article>
+				<aside id="fotoperfil">
+					<img src="images/yo.png">
+				</aside>
+				<p>Me llamo <span>María</span>. Soy diseñadora, futura programadora y artista frustrada. Estás ante un trabajo para fin de bloque de la asignatura de "Lenguaje de marcas y sistemas de gestión de la información". Las imágenes que ves aquí son recopiladas de freevector y modificadas por una servidora. Las fotos de los perfiles que encontrarás en la página de inspiración han sido sacados de los perfiles de redes sociales. No busco sacar nada con ellos más que una buena nota. </p>
+			</article>
+		</section>
+		<section class="paginaderecha">
+			<h2 class="contacto">Contáctame</h2>
+			<form name="contacto" enctype="text/plain" method="post" action="mailto:mariasantanaruiz@gmail.com">
+				<input id="nombre" name="nombre" type="text" size="40" required tabindex="1" placeholder="Nombre">
+				<input id="apellidos" name="apellidos" type="text" size="50" required tabindex="2" placeholder="Apellidos">
+				<input id="email" name="email" type="email" tabindex="3" required placeholder="ejemplo@email.com">
+				<select id="motivo" name="motivo" tabindex="4">
+					<option> Asunto: </option>
+					<option value="saludo">Saludar</option>
+					<option value="informacion">Pedir información</option>
+					<option value="sugerencia">Algún comentario</option>
+				</select>
+				<textarea id="comentarios" name="comentarios" required tabindex="6">Escribe aquí</textarea>
+				<input id="enviar" type="submit" alt="botón de envío" value="Enviar" tabindex="5">
+				<input id="reset" type="reset" value="Borrar" tabindex="6">
+			</form>
+		</section>
+	</main>
+</body>
+
+
+
+</html>

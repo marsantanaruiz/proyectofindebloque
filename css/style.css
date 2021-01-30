@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+@font-face {
+	font-family: Passengers;
+	src: url(../fonts/Passengers-Script.ttf);
+}
+
+@font-face {
+	font-family: Journal;
+	src: url(../fonts/JOURNAL.ttf);
+}
+
+@font-face {
+	font-family: NeoBulletin;
+	src: url(../fonts/NeoBulletin-Semi-Bold.ttf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: white;
+	/*background-color: #FBFAE8;*/
+	font-family: 'Architects Daughter', cursive;
+	max-width: 2000px;
+	min-width: 900px;
+
+}
+
+main {
+	background-image: url(../images/background.jpg);
+	background-repeat: repeat;
+	border: 2px solid black;
+	box-shadow: 5px 5px black;
+	border-radius: 20px;
+	margin: 10%;
+	height: auto;
+	width: auto;
+	display: flex;
+	flex-direction: row;
+
+}
+
+nav {
+	border: 2px solid black;
+	position: fixed;
+	left: 5%;
+	top: 0;
+	box-shadow: 5px 5px pink;
+	width: 240px;
+	background: white;
+	z-index: 2;
+	padding: 10px;
+	font-size: 1.2em;
+}
+nav h2{
+	text-align: center;
+	text-decoration: underline;
+}
+
+nav img{
+	float:left;
+	padding-right: 5%;
+}
+
+
+nav a{
+	text-decoration: none;
+	color: black;
+}
+
+
+nav a:hover{
+	color: #99CC66;
+	text-decoration: underline;
+}
+
+nav a:visited{
+	color: #99CC66;
+}
+

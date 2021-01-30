@@ -1,0 +1,152 @@
+.paginaizquierda h1 {
+	font-family: 'Passengers';
+	font-size: 6em;
+	font-weight: 200;
+	text-shadow: 5px 5px pink;
+	text-align: right;
+	line-height: 1em;
+	margin-right: 0.25em;
+}
+
+.paginaizquierda article p {
+	margin: 1em 0;
+	text-align: right;
+	font-size: 1.25em;
+}
+
+.paginaizquierda span {
+	background-color: pink;
+}
+
+.paginaizquierda aside {
+	clip-path: circle(50% at 50% 50%);
+	shape-outside: circle(50% at 50% 50%) border-box;
+	float: left;
+	display: block;
+}
+
+.paginaizquierda {
+	padding: 2em;
+	width: 50%;
+	border-right: 2px solid #ddd;
+}
+
+/**************************************************************
+                 Página inspiración
+**************************************************************/
+.main_inspiracion {
+	flex-wrap: wrap;
+}
+
+.cabecera{
+	display: flex;
+	flex-direction: row;	
+	width: 100%;
+	justify-content: space-between;
+	padding-left: 5%;
+	padding-top: 5%;
+
+
+}
+.inspiraciontitulo{
+	font-family: 'Passengers';
+	font-size: 6em;
+	font-weight: 200;
+	text-shadow: 5px 5px #8fc5cc;
+	line-height: 1em;
+}
+
+.inspiraciontarjetas {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 20px;
+
+
+}
+
+.tarjetas {
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	margin-bottom: 5%;
+	box-shadow: 5px 5px #99CC66;
+}
+
+.tarjetas img {
+	width: 300px;
+	height: 300px;
+}
+
+.tarjetas h2 {
+	margin: 0;
+	color: ;
+	text-shadow: 2px 2px #94d2de;
+	padding: 0 20px;
+}
+
+.tarjetas .descripcion {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+.tarjetas .descripcion p {
+	display: flex;
+	flex-grow: 2;
+	text-align: justify;
+	padding: 0 20px;
+}
+
+.tarjetas footer {
+	padding: 10px 0;
+	background-color: #8fc5cc;
+	bottom: 0;
+}
+
+.tarjetas footer a {
+	text-decoration: none;
+	color: black;
+}
+
+.tarjetas aside {
+	border: 0;
+	box-shadow: 0;
+}
+
+.videos iframe {
+	margin-bottom: 10px;
+}
+
+.videos {
+	margin-top: -3em;
+	display: flex;
+	flex-direction: column;
+
+}
+
+#camara {
+	height: 300px;
+	z-index: 0;
+	
+}
+
+
+/**************************************************************
+                 Página quien soy
+**************************************************************/
+
+#fotoperfil img {
+	width: 450px;
+	height: auto;
+}
+
+#fotoperfil {
+	clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+	shape-outside: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%) border-box;
+	float: left;
+	display: block;
+}

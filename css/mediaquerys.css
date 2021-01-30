@@ -1,0 +1,47 @@
+@media screen and (max-width: 1200px){
+	body{
+		width: 80%;
+		
+	}
+	main{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	.paginaizquierda{
+		width: 90%;
+		border-right: 0;
+	}
+	.paginaderecha{
+		width: 90%;
+	}
+	.sticker{
+		z-index: -1;
+	}
+	#camara{
+		position: absolute;
+		z-index: -1;
+		opacity: 0;
+	}
+
+	.cabecera{
+		transform: scale(0.5);
+	}
+	.inspiraciontarjetas{
+		width: 80%;
+		justify-content: center;
+	}
+}
+@media screen and (max-width: 1980px){
+	.sticker {
+		top: 32%; 
+	}
+	
+}
+
+@media screen and (max-width: 1800px){
+	.sticker, .cine{
+		z-index: -1;
+	}
+	
+}

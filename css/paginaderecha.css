@@ -1,0 +1,244 @@
+.paginaderecha {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 50%;
+	align-content: flex-start;
+	padding: 20px;
+}
+
+.paginaderecha h2 {
+	display: flex;
+	height: auto;
+	flex-grow: 2;
+	font-family: 'Neobulletin';
+	font-size: 3em;
+	text-shadow: 2px 2px #ddd;
+	align-self: baseline;
+	text-transform: uppercase;
+	width: 25%;
+
+}
+
+ .tareas, .habitos {
+	border: 2px solid black;
+}
+
+.calendario {
+	margin-top: -5%;	
+}
+
+ .calendario img {
+	border: 5px solid pink;
+	border-radius: 50px;
+	padding: 30px;
+	background-color: white;
+}
+
+
+ .tareas {
+	padding: 20px;
+	box-shadow: 5px 5px #99CC66;
+	margin-left: 5%;
+	margin-bottom: 30%;
+
+}
+
+ .tareas h2 {
+	border-bottom: 2px solid black;
+	font-family: 'Neobulletin';
+	font-size: 2em;
+	margin-bottom: 5px;
+	width: 100%;
+	align-content: center;
+}
+
+.mapa {
+	margin-top: 8%;
+	margin-bottom: 10%;
+}
+
+ .mapa iframe {
+
+	transform: rotate(5deg);
+	z-index: -1;
+}
+
+ .mapa img {
+	position: absolute;
+	width: 400px;
+	z-index: 1;
+	margin-top: -3%;
+	margin-left: -1.7%;
+
+}
+
+ .sticker {
+	position: absolute;
+	top:32%;
+	z-index: 0;
+}
+
+.sticker img {
+	width: 300px;
+	transform: rotate(-10deg);
+	
+}
+
+
+.cine {	
+	flex-grow: 2;
+	margin-top: -20%;
+	border-right: 3px solid black;
+	padding-left: 10%;
+	z-index: 0;
+}
+
+.cine img{
+	right: 0;
+}
+
+
+
+.habitos {
+	padding: 20px;
+	width: 110%;
+	box-shadow: 5px 5px solid pink;
+}
+
+
+#subrayado h2{
+	padding-right: 5%;
+}
+
+ .habitos ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+ .habitos .espacio {
+	margin-right: 2em;
+}
+
+#semana {
+	justify-content: space-between;
+	padding-bottom: 5px;
+	margin-left: 25%;
+	font-weight: bold;
+
+}
+
+.habitos .bullets {
+	width: 75%;
+}
+#subrayado{
+	border-top: 8px solid pink;
+	width: 50%;
+	margin-left: 50%;
+	
+}
+
+.cartelera {
+	margin-top: -20%;
+	align-self: flex-end;
+	padding-bottom: 70px;
+}
+
+.cartelera h2{
+	font-size: 2em;
+	border-bottom: 2px solid black;
+	width: 100%;
+	margin-bottom: 0.5em;
+}
+
+.cartelera ul {
+	list-style: none;
+	float: left;
+}
+
+.cartelera .titulospelis {
+	text-align: right;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.cartelera img {
+	width: 20px;
+}
+
+.ejsemana{
+	align-items: flex-end;
+	width: 100%;
+	margin-top: 10%;
+	border-top: 8px solid #99CC66;
+}
+.ejsemana h2{
+	font-family: 'Journal';
+	justify-content: center;
+	font-size: 4em;
+}
+.ejsemana div{	
+	border-top: 8px solid #99CC66;
+	font-size: 2em;
+}
+
+/**************************************************************
+                 Quien soy - Formulario
+**************************************************************/
+#quiensoy{
+	height: 100%;
+}
+.contacto{
+	border-bottom:6px solid pink;	
+	margin-bottom: 5%;
+}
+
+form{
+	margin-top: 2%;
+	margin-left: 10%;
+	
+}
+input{
+	height: 30px;
+	width: 90%;
+	margin-bottom: 10px;
+	padding: 5px;
+	padding-left: 10px;
+	font-family: 'Journal';
+	font-size: 2em;
+	background-color: #ddd;
+	border: none;
+}
+textarea, select{
+	width: 90%;
+	margin-bottom: 10px;
+	padding: 5px;
+	padding-left: 10px;
+	font-family: 'Journal';
+	font-size: 2em;
+	background-color: #ddd;
+	border: none;
+
+}
+
+select {
+	width: 91.5%;
+}
+
+textarea {
+	height: 25%;
+}
+#enviar, #reset{
+	width: 21%;	
+	margin: 0;
+	font-family: 'NeoBulletin';
+	font-size: 1em;
+	background-color: #94d2de;
+	border: none;
+}
+#enviar {
+	width: 70%;
+	padding-right: 0;
+}
