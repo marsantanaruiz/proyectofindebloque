@@ -206,7 +206,7 @@ input{
 	margin-bottom: 10px;
 	padding: 5px;
 	padding-left: 10px;
-	font-family: 'Journal';
+	font-family: 'Journal',cursive;
 	font-size: 2em;
 	background-color: #ddd;
 	border: none;
@@ -216,7 +216,7 @@ textarea, select{
 	margin-bottom: 10px;
 	padding: 5px;
 	padding-left: 10px;
-	font-family: 'Journal';
+	font-family: 'Journal',cursive;
 	font-size: 2em;
 	background-color: #ddd;
 	border: none;
